@@ -5,9 +5,7 @@ This repository contains examples and related resources for Amazon SageMaker Tra
 
 ## Overview
 
-Amazon SageMaker makes it easy to train machine learning using EC2 instances. There are many instance types to choose from, and this choice affects the speed and cost of training.
-
-This repository contains example benchmark for various deep learning use cases. You can see results directly in the notebook, reproduce results by re-running the notebooks. And alter the notebooks to create new scenarios to benchmark.
+Amazon SageMaker makes it easy to train machine learning using EC2 instances. There are many instance types to choose from and this choice affects the speed and cost of training. This repository contains example benchmark for various deep learning use cases. You can see results directly in the notebook, reproduce results by re-running the notebooks. And alter the notebooks to create new scenarios to benchmark.
 
 ### Repository Structure
 
