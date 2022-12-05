@@ -99,7 +99,6 @@ def read_job_name():
         sys.exit(1)
     job_name = sys.argv[1]
     if job_name.startswith('arn:'):
-        s = 'arn:aws:sagemaker:us-east-1:331113010199:training-job/pytorch-training-2022-11-24-12-41-31-684'
         job_name = job_name.split('/')[-1]
     return job_name
     
