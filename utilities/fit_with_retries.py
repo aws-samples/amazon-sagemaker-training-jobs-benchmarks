@@ -1,3 +1,5 @@
+"""fit_with_retries helps overcome temporary errors, like insufficient capacity error, when launching a SageMaker Training job."""
+
 import time
 from sagemaker.estimator import EstimatorBase
 
